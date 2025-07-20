@@ -4,9 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rock Paper Scissors</title>
-        <script src="game.js"></script>
+        <script src="game.js" defer></script>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            button {
+                margin: 5px;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .result {
+                margin-top: 20px;
+            }
+            #score {
+                font-weight: bold;
+                font-size: 24px;
+            }
+        </style>
     </head>
 
     <body>
+        <h1>Rock Paper Scissors Game</h1>
+
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+
+        <div class="result">
+            <p id="score">Score: 0 - 0</p>
     </body>
 </html>
